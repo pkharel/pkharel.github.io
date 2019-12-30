@@ -17,6 +17,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+#
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
 
 title: Pradosh Kharel
 email: pradosh.kharel@gmail.com
@@ -27,10 +32,8 @@ github_username: pkharel
 instagram_username: pradosh
 twitter_username: pradoshkharel
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+google_analytics: UA-56252935-1
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
