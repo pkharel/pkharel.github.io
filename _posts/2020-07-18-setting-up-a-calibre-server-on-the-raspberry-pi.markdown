@@ -1,7 +1,7 @@
 ---
 layout: post 
 title:  "Setting up a Calibre server on the Raspberry Pi"
-categories: calibre raspberrypi
+tags: calibre raspberrypi
 ---
 
 Documenting the steps I took to get a publically accessible calibre server up and running alongside an existing Nginx setup and HTTPS.
