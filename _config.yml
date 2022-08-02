@@ -36,6 +36,9 @@ google_analytics: UA-56252935-1
 
 repository: pkharel/pkharel.github.io
 
+disqus:
+  shortname: pradoshkharel
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
