@@ -9,8 +9,9 @@ Documenting the steps I took to use a self owned domain for GitHub Pages
 # DNS configuration
 
 * Create type A records for the [IP addresses from GitHub](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#about-custom-domain-configuration)
-* Create CNAME record for GitHub Pages site e.g username.github.io
+* Create CNAME record for GitHub Pages site e.g `pkharel.github.io`
 
 # GitHub Pages configuration
 
-* Go to repository settings -> Pages and add your domain
+* Create a Github Pages repository
+* Go to `Repository Settings -> Pages -> Custom domain` and add your domain

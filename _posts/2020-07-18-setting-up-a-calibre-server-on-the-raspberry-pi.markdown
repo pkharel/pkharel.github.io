@@ -1,14 +1,17 @@
 ---
 layout: post 
-title:  "Setting up a Calibre server on the Raspberry Pi"
+title:  "Setting up a Calibre server"
 tags: calibre raspberrypi
 ---
 
-Documenting the steps I took to get a publically accessible calibre server up and running alongside an existing Nginx setup and HTTPS.
+Documenting the steps I took to get a Calibre server up and running on a Raspberry Pi.
+
+# Requirements
+A Raspberry Pi that's accessible from devices in the network and that's optionally [set up with a
+static IP and a custom domain]({% post_url 2020-06-06-set-up-rapsberry-pi-as-a-public-server-with-a-domain %}).
 
 # Setting up calibre
-
-Install [calibre]. The newest version of calibre doesn't seem to be available in the repos. TODO should try building newer version from source
+Install [calibre]. The latest version of calibre doesn't seem to be available in the repos.
 
 ```
 sudo apt install calibre
@@ -27,7 +30,8 @@ calibre-server /mnt/elements/media/ebooks/
 ```
 Try loading up <http://127.0.0.1:8080>
 
-*(Optional)* Create a [systemd service unit file] to manage the server. Create file at `/etc/systemd/system/calibre-server.service` with the following
+*(Optional)* Create a [systemd service unit file] to manage the server. Create file at
+`/etc/systemd/system/calibre-server.service` with the following
 ```
 [Unit]
 Description=calibre content server
@@ -48,36 +52,8 @@ systemctl enable calibre-server
 systemctl start calibre-server
 ```
 
-# Nginx configuration
-We want to be able to access the Calibre server via something like `http://ebooks.myserver.com`. Assuming DNS is already set up properly. TODO maybe a separate post on Google Domains + Nginx + LetsEncrypt
-
-Add a new site to Nginx by creating a new file at `/etc/nginx/sites-available/ebooks.myserver.com`
-```
-upstream calibre_backend {
-  server    127.0.0.1:8080;
-  keepalive 32;
-}
-
-server {
-  listen 80;
-  server_name         ebooks.myserver.com;
-  location / {
-    proxy_pass http://calibre_backend;
-  }
-}
-```
-Enable site
-```
-cd /etc/nginx/sites-enabled/
-ln -s ../sites-available/ebooks.myserver.com
-systemctl restart nginx
-```
-
-# Enable HTTPS
-Get certs from LetsEncrypt. The app should ask you if you want to change the configuration to force HTTPS. That'll update the Nginx config and enable HTTPS.
-```
-sudo certbot --nginx -d ebooks.myserver.com
-```
+# Next Steps 
+You can [make the server publicly accessible over HTTPS]({% post_url 2020-07-20-make-services-publicly-available %}).
 
 [calibre]: https://calibre-ebook.com/
 [calibre library]: https://www.digitalocean.com/community/tutorials/how-to-create-a-calibre-ebook-server-on-ubuntu-14-04
