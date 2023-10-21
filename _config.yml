@@ -36,8 +36,8 @@ google_analytics: G-KGEZK9091D
 
 repository: pkharel/pkharel.github.io
 
-disqus:
-  shortname: pradoshkharel
+#disqus:
+#  shortname: pradoshkharel
 
 # Exclude from processing.
 # The following items will not be processed, by default.
