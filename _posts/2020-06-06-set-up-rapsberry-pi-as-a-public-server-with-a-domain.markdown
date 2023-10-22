@@ -39,6 +39,8 @@ Pi's current IP address.
 Using Google Domains, go to `DNS`->`Synthetic records` and create a new
 `Dynamic DNS` record for `*.mydomain.com`.
 
+* DEPRECATED * I use [ddclient](https://ddclient.net/) instead.
+
 Download this [script](https://gist.github.com/cyrusboadway/5a7b715665f33c237996) and fill in
 credentials/hostname and run the script. The script basically grabs the IP address and updates the
 DNS in Google Domains so the domain points to the IP address.
