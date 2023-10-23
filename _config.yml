@@ -22,6 +22,7 @@
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 title: Pradosh Kharel
 email: pradosh.kharel@gmail.com
