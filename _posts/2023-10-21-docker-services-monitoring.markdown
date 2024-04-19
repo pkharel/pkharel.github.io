@@ -1,7 +1,15 @@
 ---
-layout: post 
+layout: post
 title:  "Monitoring docker services"
-tags: docker compose monitoring prometheus grafana node-exporter cadvisor alertmanager discord
+tags:
+  - docker compose
+  - monitoring
+  - prometheus
+  - grafana
+  - node-exporter
+  - cadvisor
+  - alertmanager
+  - discord
 ---
 
 ## Prometheus, Alertmanager and Grafana

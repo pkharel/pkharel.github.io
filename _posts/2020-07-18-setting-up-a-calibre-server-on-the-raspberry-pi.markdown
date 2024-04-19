@@ -1,7 +1,9 @@
 ---
-layout: post 
+layout: post
 title:  "Setting up a Calibre server"
-tags: calibre raspberrypi
+tags:
+  - calibre
+  - raspberrypi
 ---
 
 Documenting the steps I took to get a Calibre server up and running on a Raspberry Pi.
@@ -52,7 +54,7 @@ systemctl enable calibre-server
 systemctl start calibre-server
 ```
 
-# Next Steps 
+# Next Steps
 You can [make the server publicly accessible over HTTPS]({% post_url 2020-07-20-make-services-publicly-available %}).
 
 [calibre]: https://calibre-ebook.com/

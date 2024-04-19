@@ -1,7 +1,12 @@
 ---
-layout: post 
+layout: post
 title:  "Set up Rapsberry Pi as a public server with a domain"
-tags: raspberrypi google domains dynamic dns nginx static ip
+tags:
+  - raspberry pi
+  - google domains
+  - dynamic dns
+  - nginx
+  - static ip
 ---
 
 Documenting the steps I took to set up a custom domain that points to a Raspberry Pi server.
@@ -28,7 +33,7 @@ usually just the router's address.
 We'll use [NGINX](https://www.nginx.com/) as the web server. Install and run NGINX via
 ```
 sudo apt install nginx
-systemctl start nginx 
+systemctl start nginx
 ```
 Go to `https://<static_ip_address>` and you should see the NGINX test page.
 
