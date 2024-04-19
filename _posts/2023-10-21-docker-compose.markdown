@@ -1,7 +1,15 @@
 ---
-layout: post 
+layout: post
 title:  "Jellyfin server with Docker compose"
-tags: jellyfin docker compose transcoding qsv quicksync intel n100 
+tags:
+  - jellyfin
+  - docker
+  - compose
+  - transcoding
+  - qsv
+  - quicksync
+  - intel
+  - n100
 ---
 
 ## Docker Compose

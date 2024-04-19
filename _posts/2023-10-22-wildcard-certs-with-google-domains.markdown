@@ -1,7 +1,11 @@
 ---
 layout: post
 title:  "Wildcard certificates with Google Domains"
-tags: wildcard certificates certbot google domains
+tags:
+  - wildcard
+  - certificates
+  - certbot
+  - google domains
 ---
 
 ## Wildcard certificates
@@ -24,23 +28,23 @@ pip install --upgrade pip
 pip install certbot
 ```
 We'll use [this plugin](https://github.com/aaomidi/certbot-dns-google-domains)
-which you can install via 
+which you can install via
 ```
 pip install certbot certbot-dns-google-domains
 ```
 Create a file `/etc/letsencrypt/dns_google_domains_credentials.ini` and fill it
-with 
+with
 ```
 dns_google_domains_access_token = <token>
 ```
 You can get the token from `Google Domains -> Security -> ACME DNS API -> Create
 token`
 
-Run `certbot` with 
+Run `certbot` with
 ```
 certbot certonly --authenticator 'dns-google-domains' \
                  --dns-google-domains-credentials '/etc/letsencrypt/dns_google_domains_credentials.ini' \
-                 --server 'https://acme-v02.api.letsencrypt.org/directory' 
+                 --server 'https://acme-v02.api.letsencrypt.org/directory'
                 --dns-google-domains-zone 'domain.com' -d '*.domain.com'
 ```
 Make sure you update your NGINX configurations to use the new certificate.
