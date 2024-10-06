@@ -1,1 +1,4 @@
 vendor/
+Gemfile.lock
+_site/
+pradosh.dev/
