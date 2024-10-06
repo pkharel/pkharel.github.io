@@ -1,7 +1,7 @@
 # /bin/bash
 
 # Build local iste
-JEKYLL_ENV=production sudo bundle exec jekyll build --config _config.yml,_config.local.yml
+JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config.local.yml
 # Delete old file and copy over new ones
 sudo rm -rf /var/www/blog.pradosh.dev
 sudo cp -r _site /var/www/blog.pradosh.dev
