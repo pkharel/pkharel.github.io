@@ -11,4 +11,4 @@ services:
       - .:/srv/jekyll:cached
       - ./vendor/bundle/:/usr/local/bundle:cached
     restart: always
-    command: jekyll serve --force_polling -drafts
+    command: jekyll serve --force_polling
