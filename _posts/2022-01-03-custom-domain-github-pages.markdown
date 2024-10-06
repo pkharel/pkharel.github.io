@@ -1,7 +1,10 @@
 ---
-layout: post 
+layout: post
 title:  "Custom domain for GitHub Pages"
-tags: github pages custom domain
+tags:
+  - github
+  - pages
+  - custom domain
 ---
 
 Documenting the steps I took to use a self owned domain for GitHub Pages

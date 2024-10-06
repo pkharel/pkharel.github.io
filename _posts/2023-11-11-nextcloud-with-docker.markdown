@@ -1,10 +1,14 @@
 ---
 layout: post
 title:  "Nextcloud with Docker"
-tags: nextcloud docker https nginx
+tags:
+  - nextcloud
+  - docker
+  - https
+  - nginx
 ---
 
-## Overview 
+## Overview
 I'm using [Nextcloud](https://nextcloud.com/) as an on premise backup and
 storage solution for a local server. I'm using docker to run a bunch of other
 services so this is to document running Nextcloud on docker.

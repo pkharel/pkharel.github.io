@@ -1,7 +1,8 @@
 ---
-layout: post 
+layout: post
 title:  "Dotfiles management"
-tags: dotfiles
+tags:
+ - dotfiles
 ---
 
 # Storing and managing dotfiles
@@ -37,7 +38,7 @@ dotfiles push -f origin master
 ```
 
 # Setup dotfiles in a new machine
-To setup the stored dotfiles in a new machine 
+To setup the stored dotfiles in a new machine
 ```
 git clone --bare https://<dotfiles_repo_link>.git ${HOME}/.dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
