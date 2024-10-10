@@ -1,12 +1,13 @@
 ---
-layout: post
-title:  "ZFS on external JBOD HDD enclosure"
+title: ZFS on external JBOD HDD enclosure
+slug: zfs
+date: "2024-05-03T00:00:00Z"
 tags:
-  - zfs 
-  - external hdd enclosure 
-  - jbod 
-  - das 
-  - nas 
+- zfs
+- external hdd enclosure
+- jbod
+- das
+- nas
 ---
 
 ## Overview

@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Dotfiles management"
+title: Dotfiles management
+slug: dotfiles-managment
+date: "2023-07-08T00:00:00Z"
 tags:
- - dotfiles
+- dotfiles
 ---
 
 # Storing and managing dotfiles

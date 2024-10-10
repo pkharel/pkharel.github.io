@@ -1,10 +1,11 @@
 ---
-layout: post
-title:  "Custom domain for GitHub Pages"
+title: Custom domain for GitHub Pages
+slug: custom-domain-github-pages
+date: "2022-01-03T00:00:00Z"
 tags:
-  - github
-  - pages
-  - custom domain
+- github
+- pages
+- custom domain
 ---
 
 Documenting the steps I took to use a self owned domain for GitHub Pages
