@@ -1,0 +1,6 @@
+baseURL = 'https://www.pradosh.dev'
+publishDir = 'pradosh.dev'
+
+[services]
+  [services.googleAnalytics]
+    ID = ''
