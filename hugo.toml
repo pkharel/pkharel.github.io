@@ -4,7 +4,8 @@ languageCode =  'en-us'
 title = 'Pradosh Kharel'
 theme = 'archie'
 
-paginate = 1
+[pagination]
+  pagerSize = 1
 
 # Use jekyll url scheme so we don't have broken links
 [permalinks]
