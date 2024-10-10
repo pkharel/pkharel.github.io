@@ -1,11 +1,12 @@
 ---
-layout: post
-title:  "Wildcard certificates with Google Domains"
+title: Wildcard certificates with Google Domains
+slug: wildcard-certs-with-google-domains
+date: "2023-10-22T00:00:00Z"
 tags:
-  - wildcard
-  - certificates
-  - certbot
-  - google domains
+- wildcard
+- certificates
+- certbot
+- google domains
 ---
 
 ## Wildcard certificates

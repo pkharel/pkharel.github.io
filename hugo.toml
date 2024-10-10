@@ -1,0 +1,46 @@
+baseURL = 'https://www.pradoshkharel.com'
+disablePathToLower = 'true'
+languageCode =  'en-us'
+title = 'Pradosh Kharel'
+theme = 'archie'
+
+paginate = 1
+
+# Use jekyll url scheme so we don't have broken links
+[permalinks]
+  [permalinks.page]
+    post = "/:year/:month/:day/:slug/"
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-M4QCZ5Q5DH'
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/pkharel/archie"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/pradoshkharel"
+
+[[menu.main]]
+name = "Posts"
+url = "/post"
+weight = 1
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Resume"
+url = "/assets/PradoshKharelResume.pdf"
+weight = 4

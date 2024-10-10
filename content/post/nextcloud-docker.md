@@ -1,11 +1,12 @@
 ---
-layout: post
-title:  "Nextcloud with Docker"
+title: Nextcloud with Docker
+slug: nextcloud-with-docker
+date: "2023-11-11T00:00:00Z"
 tags:
-  - nextcloud
-  - docker
-  - https
-  - nginx
+- nextcloud
+- docker
+- https
+- nginx
 ---
 
 ## Overview

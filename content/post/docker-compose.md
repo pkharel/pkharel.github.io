@@ -1,15 +1,16 @@
 ---
-layout: post
-title:  "Jellyfin server with Docker compose"
+title: Jellyfin server with Docker compose
+slug: docker-compose
+date: "2023-10-21T00:00:00Z"
 tags:
-  - jellyfin
-  - docker
-  - compose
-  - transcoding
-  - qsv
-  - quicksync
-  - intel
-  - n100
+- jellyfin
+- docker
+- compose
+- transcoding
+- qsv
+- quicksync
+- intel
+- n100
 ---
 
 ## Docker Compose

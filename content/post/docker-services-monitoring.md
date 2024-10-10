@@ -1,15 +1,16 @@
 ---
-layout: post
-title:  "Monitoring docker services"
+title: Monitoring docker services
+slug: docker-services-monitoring
+date: "2023-10-21T00:00:00Z"
 tags:
-  - docker compose
-  - monitoring
-  - prometheus
-  - grafana
-  - node-exporter
-  - cadvisor
-  - alertmanager
-  - discord
+- docker compose
+- monitoring
+- prometheus
+- grafana
+- node-exporter
+- cadvisor
+- alertmanager
+- discord
 ---
 
 ## Prometheus, Alertmanager and Grafana

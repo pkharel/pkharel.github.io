@@ -1,12 +1,13 @@
 ---
-layout: post
-title:  "Set up Rapsberry Pi as a public server with a domain"
+slug: set-up-rapsberry-pi-as-a-public-server-with-a-domain
+title: Set up Rapsberry Pi as a public server with a domain
+date: "2020-06-06T00:00:00Z"
 tags:
-  - raspberry pi
-  - google domains
-  - dynamic dns
-  - nginx
-  - static ip
+- raspberry pi
+- google domains
+- dynamic dns
+- nginx
+- static ip
 ---
 
 Documenting the steps I took to set up a custom domain that points to a Raspberry Pi server.

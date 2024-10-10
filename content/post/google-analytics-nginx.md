@@ -1,10 +1,11 @@
 ---
-layout: post
-title:  "Integrate Google Analytics with NGINX"
+slug: google-analytics-nginx
+title: Integrate Google Analytics with NGINX
+date: "2024-10-06T00:00:00Z"
 tags:
-  - google analytics 
-  - nginx 
-  - jellyfin 
+- google analytics
+- nginx
+- jellyfin
 ---
 
 ## Google Analytics 

@@ -1,19 +1,20 @@
 ---
-layout: post
-title:  "Make web services publicly available"
+title: Make web services publicly available
+slug: make-services-publicly-available
+date: "2020-07-20T00:00:00Z"
 tags:
-  - raspberrypi
-  - nginx
-  - letsencrypt
-  - https
-  - raspberry pi
+- raspberrypi
+- nginx
+- letsencrypt
+- https
+- raspberry pi
 ---
 
 Documenting the steps I took to make internal services (e.g plex, calibre, pihole) publicly
 available on the Raspberry Pi.
 
 # Requirements
-Follow [{% post_url 2020-06-06-set-up-rapsberry-pi-as-a-public-server-with-a-domain %})]
+Follow this [guide]({{<ref "raspberry-pi-public-server">}}).
 
 # General Overview
 We want to set up multiple services on a Raspberry Pi and have subdomains point to the various

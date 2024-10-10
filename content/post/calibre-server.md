@@ -1,16 +1,17 @@
 ---
-layout: post
-title:  "Setting up a Calibre server"
+slug: setting-up-a-calibre-server-on-the-raspberry-pi
+title: Setting up a Calibre server
+date: "2020-07-18T00:00:00Z"
 tags:
-  - calibre
-  - raspberrypi
+- calibre
+- raspberrypi
 ---
 
 Documenting the steps I took to get a Calibre server up and running on a Raspberry Pi.
 
 # Requirements
 A Raspberry Pi that's accessible from devices in the network and that's optionally [set up with a
-static IP and a custom domain]({% post_url 2020-06-06-set-up-rapsberry-pi-as-a-public-server-with-a-domain %}).
+static IP and a custom domain]({{< ref "raspberry-pi-public-server.md" >}}).
 
 # Setting up calibre
 Install [calibre]. The latest version of calibre doesn't seem to be available in the repos.
@@ -55,7 +56,7 @@ systemctl start calibre-server
 ```
 
 # Next Steps
-You can [make the server publicly accessible over HTTPS]({% post_url 2020-07-20-make-services-publicly-available %}).
+You can [make the server publicly accessible over HTTPS]({{ <ref "public-web-services"> }}).
 
 [calibre]: https://calibre-ebook.com/
 [calibre library]: https://www.digitalocean.com/community/tutorials/how-to-create-a-calibre-ebook-server-on-ubuntu-14-04
