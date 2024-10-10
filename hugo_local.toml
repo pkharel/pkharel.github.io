@@ -1,0 +1,7 @@
+baseURL = 'https://www.pradosh.dev'
+publishDir = 'pradosh.dev'
+
+# Disable GA since we're using Zaraz to inject GA tag
+[services]
+  [services.googleAnalytics]
+    ID = ''
